@@ -4,19 +4,19 @@
 
 1. Install Python ([Setup instructions](https://wiki.python.org/moin/BeginnersGuide))
 
-2. Install Python Jupyter (MAC)
-
-```
-brew install jupter
-```
-
-3. Install pip3 
+2.Clone the Project and  Install pip3 
 
 ```
 python3 api_server/get-pip.py
 ```
 
-3. Clone the git_repo && Install Required Python packages
+3.Install Python Jupyter (MAC)
+
+```
+pip3 install jupter
+```
+
+3. Install Required Python packages
 
 ```
 cd ML_car_classification 
