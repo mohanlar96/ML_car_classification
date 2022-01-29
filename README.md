@@ -13,7 +13,7 @@ python3 api_server/get-pip.py
 3.Install Python Jupyter (MAC)
 
 ```
-pip3 install jupter
+pip3 install jupyter
 ```
 
 3. Install Required Python packages
