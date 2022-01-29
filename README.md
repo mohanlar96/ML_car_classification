@@ -4,10 +4,25 @@
 
 1. Install Python ([Setup instructions](https://wiki.python.org/moin/BeginnersGuide))
 
-2. Install Python packages
+2. Install Python Jupyter (MAC)
 
 ```
-pip3 install -r requirements.txt
+brew install jupter
+```
+
+3. Install pip3 
+
+```
+python3 api_server/get-pip.py
+```
+
+3. Clone the git_repo && Install Required Python packages
+
+```
+cd ML_car_classification 
+pip3 install -r training/required_python_pacakges.txt
+pip3 install -r api_server/packages.txt
+
 ```
 
 ## Setup for ReactJS
@@ -29,8 +44,8 @@ npm audit fix
 
 ## Training the Model
 
-1. Download about 20 images each for 'Ford_Explorer', 'Lexus_RX350', 'Toyota_Matrix' 
-2. Create 3 folder ('Ford_Explorer', 'Lexus_RX350', 'Toyota_Matrix') under `training/CarImages/`
+1. Download about 20 images each for `Ford_Explorer`, `Lexus_RX350` and `Toyota_Matrix` 
+2. Create 3 folder `Ford_Explorer`, `Lexus_RX350` and  `Toyota_Matrix' under `training/CarImages/`
 3. Run Jupyter Notebook in Browser.
 
 ```bash
@@ -38,19 +53,16 @@ jupyter notebook
 ```
 
 4. Open `training/car-classification-train-a-model.ipynb` in Jupyter Notebook.
-5. In cell #2, update the path to dataset.
 6. Run all the Cells one by one.
 
 ## Running the API
-
-### Using FastAPI
 
 1. Open `api_server` folder with PyCharm 
 2. Go to main.py file and right click on main method and run 
 
 ## Running the Frontend
 
-1. Get inside `api` folder
+1. Get inside `frontend` folder
 
 ```bash
 cd frontend
