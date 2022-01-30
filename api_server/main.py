@@ -24,7 +24,7 @@ app.add_middleware(
 
 MODEL = tf.keras.models.load_model("../train_model/carTrainedModel")
 
-CLASS_NAMES = ["Ford_Explorer", "Lexus_RX350", "Toyota_Matrix"]
+CLASS_NAMES = ["Ford Explorer", "Lexus RX350", "Toyota Matrix"]
 
 @app.get("/")
 async def ping():

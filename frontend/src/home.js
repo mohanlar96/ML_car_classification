@@ -212,7 +212,7 @@ export const ImageUpload = () => {
       <AppBar position="static" className={classes.appbar}>
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            ML Project: Car Classification(Toyota Matrix,Toyota Matrix,Lexus RX350 )
+            ML Project: Car Classification(Ford Explorer,Lexus RX350,Toyota Matrix)
           </Typography>
           <div className={classes.grow} />
         </Toolbar>
