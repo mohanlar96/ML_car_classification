@@ -20,8 +20,8 @@ pip3 install jupyter
 
 ```
 cd ML_car_classification 
-pip3 install -r training/required_python_pacakges.txt
-pip3 install -r api_server/packages.txt
+pip3 install -r training/required_python_pacakge.txt
+pip3 install -r api_server/package.txt
 
 ```
 
